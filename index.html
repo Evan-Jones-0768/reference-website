@@ -7,6 +7,81 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Web Design 1 Reference Site</h1>
+    <h1>Evan Jones' Web Design 1 Reference Site</h1>
+        <h2>HTML reference</h2>
+            <h3>Commonly used html tags and elements</h3>
+                <p> Headings: h1 - h6 are different sized headings with h1 being the largest and h6 being the smallest.</p>
+                <p> p is the paragraph tag and is used for body copy.</p>
+                <p> img is the image element, and is linked to the html document. Images need the location of the image and the alt content. Here is an exaple img src="" alt=""/.</p>
+                <p> list elements are used in different ways, ul is an unordered list, ol is an ordered list, dl is a desription list. for ol and ul the list items are li, and for 
+                    dl dt is for the term and dd is for the description.</p>
+                <ul> Unorded list
+                    <li> item one</li>
+                    <li> item two</li>
+                </ul>
+                <ol> Ordered list
+                    <li> item one</li>
+                    <li> item two</li>
+                </ol>
+                <dl> Description list
+                    <dt> term</dt>
+                    <dd> term description</dd>
+                </dl>
+                <p> a is for linking text. the opening <a href="https://www.youtube.com/watch?v=U26Hhn9GlWI">a tells where the link begins and the /a </a>shows where the link ends.</p>
+                <p> q is used to to <q>make quotes</q> in other elements.</p>
+                <blockquote> Blockquote is used for big quotes. </blockquote>
+                <cite> cite is used for citing the source of the quote.</cite>
+                <p>em is used for <em>EMPHASIS.</em></p>
+                <p> strong is used to put a strong importance on <strong>something.</strong></p>
+                <p> i is used for <i>italics.</i></p>
+                <p> b is used for <b>keywords.</b></p>
+                <p> small is used to make something <small>tiny</small>.</p>
+
+        <h3> Structuring content</h3>
+            <p> header is the introductory content at the top of the page.</p>
+            <p> footer is the ending of the website.</p>
+            <p> main is element that is the main content of the page. Only used once to tell the browser where the main content.</p>
+            <p> section is used to wrap around related pieces of content. each section usually has its own heading.</p>
+            <p> article is an element that is a containted composition in a web page wich is intended to be distributable or reusable.</p>
+            <p> nav is the element that represents a part of a page whose job it is to provide navigation links to other parts of the document or other documents.</p>
+
+        <h3> Linking to an element on the same page</h3>
+            <p> linking an element on the same page requires you have a section id on a part of the page. Lets say we are linking to a gallery portion of a website, we would give it the section id="gallery",
+                and then we would begin our linking. We would then use the "a" tool to link it. So we would do 
+                "a href="#gallery"> Gallery /a "
+            </p>
+        <h3> Commenting code</h3>
+         <p> commenting is used to just comment your code, and will not display on your browser. They are used by just using pointy brackets and ! and writing your comments in between the brackets. </p>
+        <h3> Landmark roles</h3>
+            <p> Landmark roles are used to help people using screen readers jump to specific sections in websites.</p>
+            <p> role="banner" is used to define an element as the header. Added to the primary header. </p>
+            <p> role="navigation" is used to define an element as the primary navigation. Added to the top nav.</p>
+            <p> role="main" is used to define an element as the main content of the page. Added to the main</p>
+            <p> role="complimentary" is used to define an element as being content related to the primary content. Added to an aside</p>
+            <p> role="contentinfo" is used to defininf an element as information about the content like copyright, terms, privacy policy etc. Added to a footer.</p>
+            <h3>Skip links</h3>
+            <p> skip links are put at the top of a page and is a way for users to jump to certain areas of the page. This is used the same way as linking an element on the same page but instead of using a section we would use nav or main to jump to them.</p>
+    <h2>CSS reference</h2>
+        <h3> Font properties</h3>
+            <p> font-family is used to change what family of font is used.</p>
+            <p> font-size is used to change what size the font is used.</p>
+            <p> font-weight is used to make things differnt weights like bold.</p>
+            <p> line-height is used to tell the browser how long you want the line to be.</p>
+    <h3>Text decorations</h3>
+            <p>Text-transform is used to transform text by making it all upercase or lowercase for example. (text-transform: uppercase;)</p>
+            <p>Text-decoration is used to add things like underlines or strikethroughs. (text-decoration: line-through;)</p>
+            <p>Text-align is used to align text certain ways like right, left or center aligned. (text-align: center;)</p>
+            <p>Text-indent is used to indent text. (text-indent: 3em;)</p>
+            <p>Text-shadow is used to add shadow to text. (text-shadow: 2px -4px 6px orange;) </p>
+    <h3>Link states</h3>  
+            <p>:link is used to style default link states</p>
+            <p>:visited is used for styling the link after its been visited.</p>
+            <p>:hover is used for styling the link when the cursor is ontop of it.</p>
+            <p>:focus is used for styling the link when the keyboard has tab focused it.</p>
+            <p>:active is used for styling the link when the mouse button is pressed down on it.</p>
+    <h3>Boxes</h3>
+            <p>Outside content is the padding, pushing the edge of the box away from the content. Gives the content some breathing room</p>
+            <p>Margin is outside of the box, pushing other boxes away. It seperates the box from other elements.</p>
+
 </body>
 </html>
